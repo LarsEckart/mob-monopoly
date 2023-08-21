@@ -7,3 +7,6 @@ https://www.monopolyland.com/list-monopoly-chance-community-chest-cards/
 # Board
 
 https://monopoly.fandom.com/wiki/Monopoly_Board
+
+# Contributing
+Oliver Nautsch

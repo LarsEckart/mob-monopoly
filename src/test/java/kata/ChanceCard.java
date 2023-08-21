@@ -48,7 +48,31 @@ public abstract class ChanceCard implements AutomaticAction {
     public static class GetOutOfJailFree extends ChanceCard {
         @Override
         public void execute(Player player, Monopoly monopoly, Place place) {
-//            throw new UnsupportedOperationException("continue here");
+            player.outOfJailFreeCardCount++;
+        }
+    }
+
+    public static class AdvanceToNearestRailroad extends ChanceCard {
+
+        // Advance to the nearest Railroad. If unowned, you may buy it from the Bank. If owned, pay wonder twice the rental to which they are otherwise entitled
+        @Override
+        public void execute(Player player, Monopoly monopoly, Place place) {
+            monopoly.moveTo(nextRailroad(player.location()));
+        }
+
+        private Place nextRailroad(int location) {
+            if (location < Place.ReadingRailroad.location()) {
+                return Place.ReadingRailroad;
+            } else if (location < Place.PennsylvaniaRailroad.location()) {
+                return Place.PennsylvaniaRailroad;
+            } else if (location < Place.BORailroad.location()) {
+                return Place.BORailroad;
+            } else if (location < Place.ShortLineRailroad.location()) {
+                return Place.ShortLineRailroad;
+            } else {
+                return Place.ReadingRailroad;
+            }
+
         }
     }
 }

@@ -19,7 +19,35 @@ public class Monopoly {
             Place.VermontAvenue,
             Place.ConnecticutAvenue,
             Place.Jail,
-            Place.StCharlesPlace
+            Place.StCharlesPlace,
+            Place.ElectricCompany,
+            Place.StatesAvenue,
+            Place.VirginiaAvenue,
+            Place.PennsylvaniaRailroad,
+            Place.StJamesPlace,
+            Place.CommunityChest2,
+            Place.TennesseeAvenue,
+            Place.NewYorkAvenue,
+            Place.FreeParking,
+            Place.KentuckyAvenue,
+            Place.Chance2,
+            Place.IndianaAvenue,
+            Place.IllinoisAvenue,
+            Place.BORailroad,
+            Place.AtlanticAvenue,
+            Place.VentnorAvenue,
+            Place.WaterWorks,
+            Place.MarvinGardens,
+            Place.GoToJail,
+            Place.PacificAvenue,
+            Place.NorthCarolinaAvenue,
+            Place.CommunityChest3,
+            Place.PennsylvaniaAvenue,
+            Place.ShortLineRailroad,
+            Place.Chance3,
+            Place.ParkPlace,
+            Place.LuxuryTax,
+            Place.Boardwalk
     };
     Queryable<Player> players = new Queryable<>(Player.class);
     public int currentPlayer = 0;
@@ -56,10 +84,14 @@ public class Monopoly {
     }
 
     public Turn move(int spaces) {
+        return move(spaces, false);
+    }
+
+    public Turn move(int spaces, boolean isDouble) {
         Player player = players.get(currentPlayer);
         player.move(spaces);
         doAutomaticActions(player);
-        return new Turn(player, this);
+        return new Turn(player, this, isDouble);
     }
 
     private void doAutomaticActions(Player player) {

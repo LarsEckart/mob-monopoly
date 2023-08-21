@@ -1,0 +1,89 @@
+Initial:
+|          GO           | [Player 1, Player 2] |
+| Mediterranean Avenue  |          []          |
+|    Community Chest    |          []          |
+|     Baltic Avenue     |          []          |
+|      Income Tax       |          []          |
+|   Reading Railroad    |          []          |
+|    Oriental Avenue    |          []          |
+|        Chance         |          []          |
+|    Vermont Avenue     |          []          |
+|  Connecticut Avenue   |          []          |
+|         Jail          |          []          |
+|   St. Charles Place   |          []          |
+|   Electric Company    |          []          |
+|     States Avenue     |          []          |
+|    Virginia Avenue    |          []          |
+| Pennsylvania Railroad |          []          |
+|    St. James Place    |          []          |
+|    Community Chest    |          []          |
+|   Tennessee Avenue    |          []          |
+|    New York Avenue    |          []          |
+|     Free Parking      |          []          |
+|    Kentucky Avenue    |          []          |
+|        Chance         |          []          |
+|    Indiana Avenue     |          []          |
+|    Illinois Avenue    |          []          |
+|   B. & O. Railroad    |          []          |
+|    Atlantic Avenue    |          []          |
+|    Ventnor Avenue     |          []          |
+|      Water Works      |          []          |
+|    Marvin Gardens     |          []          |
+|      Go To Jail       |          []          |
+|    Pacific Avenue     |          []          |
+| North Carolina Avenue |          []          |
+|    Community Chest    |          []          |
+|  Pennsylvania Avenue  |          []          |
+|  Short Line Railroad  |          []          |
+|        Chance         |          []          |
+|      Park Place       |          []          |
+|      Luxury Tax       |          []          |
+|       Boardwalk       |          []          |
+Player 1 ($1500)  
+Player 2 ($1500)  
+current player: 1
+
+Frame #1:
+|          GO           | [Player 2] |
+| Mediterranean Avenue  |     []     |
+|    Community Chest    |     []     |
+|     Baltic Avenue     |     []     |
+|      Income Tax       |     []     |
+|   Reading Railroad    |     []     |
+|    Oriental Avenue    |     []     |
+|        Chance         |     []     |
+|    Vermont Avenue     |     []     |
+|  Connecticut Avenue   |     []     |
+|         Jail          |     []     |
+|   St. Charles Place   |     []     |
+|   Electric Company    |     []     |
+|     States Avenue     |     []     |
+|    Virginia Avenue    |     []     |
+| Pennsylvania Railroad |     []     |
+|    St. James Place    |     []     |
+|    Community Chest    |     []     |
+|   Tennessee Avenue    |     []     |
+|    New York Avenue    |     []     |
+|     Free Parking      |     []     |
+|    Kentucky Avenue    |     []     |
+|        Chance         |     []     |
+|    Indiana Avenue     |     []     |
+|    Illinois Avenue    |     []     |
+|   B. & O. Railroad    |     []     |
+|    Atlantic Avenue    |     []     |
+|    Ventnor Avenue     |     []     |
+|      Water Works      |     []     |
+|    Marvin Gardens     |     []     |
+|      Go To Jail       |     []     |
+|    Pacific Avenue     |     []     |
+| North Carolina Avenue |     []     |
+|    Community Chest    |     []     |
+|  Pennsylvania Avenue  |     []     |
+|  Short Line Railroad  | [Player 1] |
+|        Chance         |     []     |
+|      Park Place       |     []     |
+|      Luxury Tax       |     []     |
+|       Boardwalk       |     []     |
+Player 1 ($910) Electric Company, Illinois Avenue, Short Line Railroad 
+Player 2 ($1500)  
+current player: 2
